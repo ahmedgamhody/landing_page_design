@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #bdbdbd;
+  transition: 0.4s;
+}
+
+.act {
+  color: #fff;
+}
+
+.act2 {
+  padding: 10px 20px;
+  background-color: #3a79f9;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.act2:hover {
+  color: #3a79f9;
+  background-color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(bg-man-sitting.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+body::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 200vh;
+  background-color: #161d3fb0;
+  top: -70%;
+  left: -50%;
+  transform: rotate(25deg);
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  height: 120px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header .logo h1 {
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
+
+.lan {
+  width: 80%;
+  margin: 150px auto;
+}
+
+.lan .con {
+  width: 50%;
+}
+
+.lan h2 {
+  color: #fff;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.lan p {
+  width: 80%;
+  color: #bdbdbd;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.lan button {
+  padding: 15px 30px;
+  background-color: #3a79f9;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.lan button:hover {
+  background-color: #fff;
+  color: #3a79f9;
+}
